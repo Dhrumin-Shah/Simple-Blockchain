@@ -167,3 +167,4 @@ Block mined: 0000f68bfebb8a68e40da050688ba487dc53820b272b7945f17922058c40a928
 }
 Is blockchain valid?true
 ```
+Thanks to **SavjeeTutorials** for creating the [initial code](https://github.com/SavjeeTutorials/SavjeeCoin) for this project. He has a video tutorial for this project on his [youtube channel](https://www.youtube.com/channel/UCnxrdFPXJMeHru_b4Q_vTPQ). 
