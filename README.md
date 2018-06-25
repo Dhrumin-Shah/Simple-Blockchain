@@ -86,7 +86,7 @@ checkValid() {
 ```
 This runs a `for` loop, checking, by index, the blocks in the chain array by recalculating the hash and comparing it to the stored hash of the block. If this returns true, it then checks whether the previous hash stored in the block matches the hash of the block before the current block.
 ### Mining
-Mining is one method used to make blockchains more secure, especiialy in the case of cryptocurrency. It allows implementing a proof of work protocol, which checks the legitimacy of the block mined and only validates once a consensus is reached by the nodes on the P2P network. Mining also controls the flow of blocks into the chain; increasing the difficulty will increase the time needed to successfully mine a block. Since we will not be using a P2P network for our blockchain, the mining aspect will simply affect the time needed to add a block to the chain.
+Mining is one method used to make blockchains more secure, especially in the case of cryptocurrency. It allows implementing a proof of work protocol, which checks the legitimacy of the block mined and only validates once a consensus is reached by the nodes on the P2P network. Mining also controls the flow of blocks into the chain; increasing the difficulty will increase the time needed to successfully mine a block. Since we will not be using a P2P network for our blockchain, the mining aspect will simply affect the time needed to add a block to the chain, no consensus needed.
 
 Let's go back to the `mineBlock()` function we left empty in the Block class. To make it more difficult for our computer to create a block, we can define how a block's hash should be. In this case, we'll be telling our computer to figure out a hash of a block beginning with a specific amount of 0's.
 ```
